@@ -18,23 +18,23 @@ class MainContent extends StatelessWidget {
       children: <Widget>[
         Container(
           padding: const EdgeInsets.all(8),
+          color: Theme.of(context).colorScheme.secondary,
           child: const Text('One'),
-          color: Theme.of(context).colorScheme.secondary,
         ),
         Container(
           padding: const EdgeInsets.all(8),
+          color: Theme.of(context).colorScheme.secondary,
           child: const Text('Two'),
-          color: Theme.of(context).colorScheme.secondary,
         ),
         Container(
           padding: const EdgeInsets.all(8),
+          color: Theme.of(context).colorScheme.secondary,
           child: const Text('Three'),
-          color: Theme.of(context).colorScheme.secondary,
         ),
         Container(
           padding: const EdgeInsets.all(8),
-          child: const Text('Four'),
           color: Theme.of(context).colorScheme.secondary,
+          child: const Text('Four'),
         ),
       ],
     );

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:responsive_design_example/core/responisive_layout.dart';
 
 import '../features/home/pages/home_page.dart';
 
